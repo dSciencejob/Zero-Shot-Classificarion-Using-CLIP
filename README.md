@@ -4,7 +4,7 @@ It has been shown that when image representations are learned from scratch on a 
 
 On the other hand a convetional computer vision systems is trained to predict a "fixed set of predetermined object categories" which can restrict their generality and usability since additional labeled data is needed to specify any other visual concept.
 
-Both techniques can be leveraged together in many ways. One usefull application can be bank fraud prediction. The vision embeddings can be combined to get an improved image-text mappings and hence a better similarity score. Here we find out the [improvements in zero shot classification](/Improvements_using_a_limited_class_model.ipynb) by using visual embeddings from CLIP and COAT (Co-Scale Conv-Attentional Image Transformers).
+Both techniques can be leveraged together in many ways. One such application can be bank fraud prediction. The vision embeddings can be combined to get an improved image-text mappings and hence a better similarity score, allowing a reduced number of false negatives. Here we find out the [improvements in similarity score](/Improvements_using_a_limited_class_model.ipynb) compared to [CLIP](/https://github.com/openai/CLIP/blob/main/notebooks/Interacting_with_CLIP.ipynb) by using visual embeddings from both CLIP and COAT (Co-Scale Conv-Attentional Image Transformers).
 
 # References
 https://github.com/openai/CLIP
